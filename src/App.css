@@ -114,6 +114,19 @@ span.navbar-text {
     display: flex;
     align-items: center;
 }
+.navbar-logo {
+  height: 70px; 
+  width: auto;
+  object-fit: contain;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    height: 45px;
+  }
+}
+
 .social-icon {
     display: inline-block;
     margin-left: 14px;

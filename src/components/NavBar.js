@@ -37,11 +37,13 @@ export const NavBar = () => {
             <img src={logo} alt="Logo" />
           </Navbar.Brand> */}
           <Navbar.Brand href="/">
-            <img
+            {/* <img
               src={logo}
               alt="Logo"
-              style={{height: "100px", objectFit: "cover", width: "fit-content"}}
-            />
+              style={{height: "100px", objectFit: "contain", minWidth: "100%" , maxWidth: "fit-content"}}
+            /> */}
+            <img src={logo} alt="Logo" className="navbar-logo" />
+
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav">
