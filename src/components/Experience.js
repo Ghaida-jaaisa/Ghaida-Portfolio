@@ -145,7 +145,7 @@ const experiences = [
         }}
       />
     ),
-    date: "Feb 2025 – Jun 2025",
+    date: "June 2025 – Present",
     points: [
       "Mastered advanced JavaScript concepts including asynchronous programming, ES6+ features, and performance optimization",
       "Developed modern front-end applications using React.js with hooks, state management, and component-based architecture",
