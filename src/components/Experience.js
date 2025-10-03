@@ -15,10 +15,145 @@ import udacityLogo from "../assets/img/udacity.png";
 import GSGLogo from "../assets/img/gsg.png";
 import primeLogo from "../assets/img/primeAcademy.jpg";
 import knowledgeLogo from "../assets/img/knowledgeAcademy.png";
+import zakeyLogo from "../assets/img/zakey_tech.jpg";
+import datacampLogo from "../assets/img/datacamp.jpg";
+import exaltLogo from "../assets/img/exalt.png";
 
 const experiences = [
   {
-    title: "Front End Training",
+    title: "Front End Intern",
+    company_name: "Exalt",
+    icon: (
+      <img
+        src={exaltLogo}
+        alt="experience"
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          borderRadius: "50%",
+        }}
+      />
+    ),
+    date: "Oct 2025 – Present",
+    points: [
+      "Gained hands-on experience in software development using modern technologies and industry best practices",
+      "Worked collaboratively on real-world projects within agile teams to simulate workplace environments",
+      "Enhanced problem-solving, debugging, and code quality through mentorship and peer code reviews",
+    ],
+  },
+  {
+    title: "DataCamp Program",
+    company_name: "datacamp",
+    icon: (
+      <img
+        src={datacampLogo}
+        alt="experience"
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          borderRadius: "50%",
+        }}
+      />
+    ),
+    date: "Sep 2025 – Present",
+    points: [
+      "Completed interactive courses focusing on Python, SQL, and R for data analysis and visualization",
+      "Worked on projects applying data science concepts, machine learning models, and statistical techniques",
+      "Developed problem-solving and analytical skills through hands-on exercises with instant feedback",
+    ],
+  },
+  {
+    title: "Amana Full Stack Developement Bootcamp",
+    company_name: "Zakey Tech",
+    icon: (
+      <img
+        src={zakeyLogo}
+        alt="experience"
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          borderRadius: "50%",
+        }}
+      />
+    ),
+    date: "Sep 2025 – Present",
+    points: [
+      "Completed a 10-week intensive program covering full-stack development including React.js, Node.js, Express, and databases (SQL and NoSQL)",
+      "Developed real-world projects by integrating front-end, back-end, and external services with mentorship support",
+      "Gained hands-on experience in software architecture, AI-assisted coding, and final project presentation skills",
+    ],
+  },
+  {
+    title: "Deep Dive LLM Bootcamp",
+    company_name: "Zakey Tech",
+    icon: (
+      <img
+        src={zakeyLogo}
+        alt="experience"
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          borderRadius: "50%",
+        }}
+      />
+    ),
+    date: "Sep 2025 – Present",
+    points: [
+      "Learned the fundamentals of Large Language Models (LLMs) including architecture, training, and applications.",
+      // "Gained hands-on experience with popular LLM frameworks such as OpenAI GPT, Google BERT, and Hugging Face Transformers.",
+      "Built and deployed LLM-based applications, including chatbots, text generators, and sentiment analysis tools.",
+    ],
+  },
+  {
+    title: "AI Programming with Python and TesnorFlow Nanodegree",
+    company_name: "Udacity",
+    icon: (
+      <img
+        src={udacityLogo}
+        alt="experience"
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          borderRadius: "50%",
+        }}
+      />
+    ),
+    date: "Aug 2025 – Present",
+    points: [
+      "Learned the foundations of Python, NumPy, Pandas, and Matplotlib for data analysis and visualization",
+      "Built and trained deep learning models using TensorFlow and neural networks",
+      "Applied AI and machine learning concepts through real-world projects such as image classification",
+    ],
+  },
+  {
+    title: "CodeCareer Training",
+    company_name: "Gaza Sky Geeks",
+    icon: (
+      <img
+        src={GSGLogo}
+        alt="experience"
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          borderRadius: "50%",
+        }}
+      />
+    ),
+    date: "Feb 2025 – Jun 2025",
+    points: [
+      "Mastered advanced JavaScript concepts including asynchronous programming, ES6+ features, and performance optimization",
+      "Developed modern front-end applications using React.js with hooks, state management, and component-based architecture",
+      "Built real-world projects integrating APIs and dynamic rendering while following clean code and best practices",
+    ],
+  },
+  {
+    title: "Front End Developement Nanodegree",
     company_name: "Udacity",
     icon: (
       <img

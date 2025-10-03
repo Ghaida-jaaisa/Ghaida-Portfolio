@@ -16,6 +16,8 @@ import jawed_ai from "../assets/img/jawed-ai.png";
 import personalized_math from "../assets/img/personalized-math.png";
 import passenger_counter from "../assets/img/passenger-counter.png";
 import blackJack from "../assets/img/blackJack.png";
+import todo_list from "../assets/img/todo-list.png";
+import prayer_times from "../assets/img/prayer-times.png";
 
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
@@ -95,6 +97,22 @@ export const Projects = () => {
       imgUrl: blackJack,
       githubUrl: "https://github.com/Ghaida-jaaisa/Blackjack-game",
       demoUrl: "https://blackjackgame111.netlify.app/",
+      type: "FrontEnd",
+    },
+    {
+      title: "To-do List",
+      description: "Design & Development",
+      imgUrl: todo_list,
+      githubUrl: "https://github.com/Ghaida-jaaisa/todo-app-dom-events",
+      demoUrl: "https://ghaida-jaaisa.github.io/todo-app-dom-events/",
+      type: "FrontEnd",
+    },
+     {
+      title: "Prayer Times App",
+      description: "Design & Development",
+      imgUrl: prayer_times,
+      githubUrl: "https://github.com/Ghaida-jaaisa/Prayer-Times-Web-App",
+      demoUrl: "https://ghaida-jaaisa.github.io/Prayer-Times-Web-App/",
       type: "FrontEnd",
     },
   ];
